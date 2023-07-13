@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
 * main -101 101-quote.c
 * with proper grammar, but the outcome is a piece of art,
