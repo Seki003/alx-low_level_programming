@@ -12,3 +12,4 @@ int main(void)
 	printf("Size of a long long int: %zu\n", sizeof(long long int));
 	printf("Size of a float: %zu\n", sizeof(float));
 	return (0);
+}
