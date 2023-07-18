@@ -1,10 +1,8 @@
 #include "main.h"
+
 /**
- * the code is printing _putchar
- * Description: printing _putchar by using the function _putchar 
- *              that use as an argument each carater of the text 
- *              and combinet in one word
- * Return: Always 0.
+ * main -  prints _putchar, followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
