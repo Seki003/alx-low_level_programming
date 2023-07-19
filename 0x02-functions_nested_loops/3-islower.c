@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * check if it is capitelized alphabet return 1,
  * else return 0
