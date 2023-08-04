@@ -10,18 +10,30 @@
 
 int main(int argc, char *argv[])
 {
-	int sum = 0;
-	char *c;
+int i, n, sum = 0;
+	char *flag;
 
-	while (argc--)
+	if (argc < 2)
 	{
-		for (argv[argc]; *c; c++)
+		printf("0\n");
+		return (0);
+	}
+
+	for (i = 1; argv[i]; i++)
+	{
+		n = strtol(argv[i], &flag, 10);
+		if (*flag)
 		{
-			if (*c < '0' || *c > '9')
-				printf("Error\n", 1);
-			sum += atoi(argv[argc]);
+			printf("Error\n");
+			return (1);
+		}
+		else
+		{
+			sum += n;
 		}
 	}
 	printf("%d\n", sum);
+
 	return (0);
+}
 }
