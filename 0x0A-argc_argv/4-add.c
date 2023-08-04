@@ -36,4 +36,3 @@ int i, n, sum = 0;
 
 	return (0);
 }
-}
