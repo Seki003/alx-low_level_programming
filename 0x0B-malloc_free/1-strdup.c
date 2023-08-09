@@ -6,7 +6,7 @@
  * Return: 0 if it is null, success the pointer.
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int i = 0, size = 0;
 	char *m;
