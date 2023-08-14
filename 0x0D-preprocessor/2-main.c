@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - print file name
+ * main - printing the source file name
  * 
- * Return : Always 0
+ * Return : Always 0.
 */
-
 int main(void)
 {
 	printf("%s\n", __FILE__);
