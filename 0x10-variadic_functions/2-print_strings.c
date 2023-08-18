@@ -9,15 +9,15 @@
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	unsigned int i;
 	char *str;
+	unsigned int i;
 	va_list ap;
 
-	va_start(ap, n)
+	va_start(ap, n);
 	if (separator == NULL)
 		separator = "";
 
-	for (n = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		str = va_arg(ap, char*);
 		if (str == NULL)
